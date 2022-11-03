@@ -1,0 +1,4 @@
+# you won't want changes to the Dockerfile to cause Docker to not use a cache of the project files
+Dockerfile
+# node_modules are large...they will be installed anyway as part of the npm install command so there's no need to include them
+node_modules
